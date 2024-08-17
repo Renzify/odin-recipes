@@ -5,6 +5,7 @@ body {
    padding: 0px;
 }
 
+/* header */
 header {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -19,6 +20,7 @@ header {
 #logo > p {
    font-family: lobster;
    font-size: 48px;
+   font-weight: normal;
    color: #d1555c;
    margin: 0px;
    padding: 0px;
@@ -36,11 +38,13 @@ header {
 #dashboard > a {
    font-family: "roboto condensed";
    font-size: 36px;
+   font-weight: normal;
 }
 
 #dashboard > button {
    font-family: "roboto condensed";
    font-size: 36px;
+   font-weight: normal;
    border: none;
    border-radius: 10px;
    background-color: #d1555c;
@@ -49,4 +53,96 @@ header {
 }
 #home {
    color: #d1555c;
+}
+
+/* hero section */
+#hero-section {
+   display: grid;
+   grid-template-columns: 1fr 1.2fr;
+   background-color: #f1bcbc;
+   height: 955px;
+}
+
+#introduction {
+   display: flex;
+   flex-direction: column;
+   margin-left: 148px;
+   margin-top: 200px;
+   height: 955px;
+}
+
+#introduction > h1 {
+   font-family: lobster;
+   font-size: 128px;
+   font-weight: normal;
+   margin: 0px;
+   padding: 0px;
+}
+
+#introduction > p {
+   font-family: "roboto condensed";
+   font-size: 40px;
+   margin-left: 10px;
+}
+
+#get-started {
+   margin-left: 10px;
+}
+
+#get-started > button {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+   border: none;
+}
+
+#get-started-button {
+   border-radius: 20px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   background-color: #d1555c;
+   color: white;
+   padding: 20px 30px;
+}
+
+#get-started-arrow {
+   border-radius: 20px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   background-color: #b5484e;
+   color: white;
+   padding: 20px 20px;
+   position: relative;
+   left: -4px;
+}
+
+#dish-showcase {
+   display: flex;
+   flex-direction: column;
+   height: 955px;
+}
+
+#plates {
+   position: relative;
+   bottom: 1150px;
+}
+
+#orange-chicken {
+   margin-top: 50px;
+   position: relative;
+   left: 150px;
+   z-index: 98;
+}
+
+#omurice {
+   position: relative;
+   bottom: 180px;
+   z-index: 100;
+}
+
+#tonkatsu-pork {
+   position: relative;
+   bottom: 625px;
+   left: 500px;
+   z-index: 99;
 }
