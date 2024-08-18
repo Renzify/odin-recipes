@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+/* header */
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+#logo {
+   display: flex;
+   margin-left: 148px;
+   align-items: center;
+}
+
+#logo > p {
+   font-family: lobster;
+   font-size: 48px;
+   font-weight: normal;
+   color: #d1555c;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   left: -22px;
+}
+
+#dashboard {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-right: 146px;
+}
+
+#dashboard > a {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+}
+
+#dashboard > button {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+   border: none;
+   border-radius: 10px;
+   background-color: #d1555c;
+   color: white;
+   padding: 12px 41px;
+}
+#home {
+   color: #d1555c;
+}
+
+/* ingredients section */
+#ingredients-section {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #f1bcbc;
+}
+
+#dish {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 464px;
+   width: 817px;
+   margin-left: 148px;
+   margin-top: 100px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   background-color: #d1555c;
+}
+
+h2 {
+   font-family: lobster;
+   font-size: 64px;
+   font-weight: normal;
+   color: #ffffff;
+   margin: 0%;
+}
+
+#dish-ingredients {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 464px;
+   width: 817px;
+   margin-right: 146px;
+   margin-top: 100px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-color: #ffffff;
+}
+
+#dish-ingredients-column-two {
+   margin-top: 90px;
+}
+
+h3 {
+   font-family: lobster;
+   font-size: 64px;
+   font-weight: normal;
+   margin: 0%;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+p {
+   font-family: "roboto condesed";
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0%;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+li {
+   font-family: "roboto condesed";
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0%;
+}
