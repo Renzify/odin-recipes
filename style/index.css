@@ -120,6 +120,8 @@ header {
    display: flex;
    flex-direction: column;
    height: 955px;
+   /* fixed the issue of div overflow(no content) on flex items */
+   width: 0%;
 }
 
 #plates {
