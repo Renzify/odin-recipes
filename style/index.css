@@ -41,7 +41,7 @@ header {
    font-weight: normal;
 }
 
-#dashboard > button {
+#dashboard > a > button {
    font-family: "roboto condensed";
    font-size: 36px;
    font-weight: normal;
@@ -89,7 +89,7 @@ header {
    margin-left: 10px;
 }
 
-#get-started > button {
+#get-started > a > button {
    font-family: "roboto condensed";
    font-size: 36px;
    font-weight: normal;

@@ -41,7 +41,7 @@ header {
    font-weight: normal;
 }
 
-#dashboard > button {
+#dashboard > a > button {
    font-family: "roboto condensed";
    font-size: 36px;
    font-weight: normal;
@@ -187,7 +187,7 @@ footer > div {
    align-items: center;
 }
 
-#button-container > button {
+#button-container > a > button {
    font-family: "roboto condensed";
    font-size: 36px;
    font-weight: normal;
