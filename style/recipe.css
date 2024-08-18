@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+/* header */
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+#logo {
+   display: flex;
+   margin-left: 148px;
+   align-items: center;
+}
+
+#logo > p {
+   font-family: lobster;
+   font-size: 48px;
+   font-weight: normal;
+   color: #d1555c;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   left: -22px;
+}
+
+#dashboard {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-right: 146px;
+}
+
+#dashboard > a {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+}
+
+#dashboard > button {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+   border: none;
+   border-radius: 10px;
+   background-color: #d1555c;
+   color: white;
+   padding: 12px 41px;
+}
+#home {
+   color: #d1555c;
+}
+
+/* ingredients section */
+#ingredients-section {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #f1bcbc;
+}
+
+#dish {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 464px;
+   width: 817px;
+   margin-left: 148px;
+   margin-top: 100px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   background-color: #d1555c;
+}
+
+h2 {
+   font-family: lobster;
+   font-size: 64px;
+   font-weight: normal;
+   color: #ffffff;
+   margin: 0%;
+}
+
+#dish-ingredients {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 464px;
+   width: 817px;
+   margin-right: 146px;
+   margin-top: 100px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-color: #ffffff;
+}
+
+#dish-ingredients-column-two {
+   margin-top: 90px;
+}
+
+h3 {
+   font-family: lobster;
+   font-size: 64px;
+   font-weight: normal;
+   margin: 0%;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+p {
+   font-family: "roboto condensed";
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0%;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+li {
+   font-family: "roboto condensed";
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0%;
+}
+
+/* description */
+#description {
+   background-color: #f1bcbc;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+#description > h3 {
+   margin: 0%;
+   margin-left: 148px;
+   margin-bottom: 30px;
+}
+
+#description > p {
+   margin: 0%;
+   margin-left: 148px;
+   margin-right: 146px;
+}
+
+/* preparation */
+#preparation {
+   background-color: #f1bcbc;
+   padding-bottom: 30px;
+}
+
+#preparation > h3 {
+   margin: 0%;
+   margin-left: 148px;
+   margin-bottom: 30px;
+}
+
+ol > li {
+   margin: 0%;
+   margin-left: 148px;
+   margin-right: 146px;
+   padding-bottom: 24px;
+}
+
+/* footer */
+footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background-color: #ffffff;
+   padding-bottom: 20px;
+}
+
+footer > div > h2 {
+   font-size: 96px;
+   color: black;
+}
+
+footer > div {
+   margin-left: 148px;
+   background-color: #ffffff;
+}
+
+#get-started {
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+}
+
+#button-container > button {
+   font-family: "roboto condensed";
+   font-size: 36px;
+   font-weight: normal;
+   border: none;
+}
+
+#get-started-button {
+   border-radius: 20px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   background-color: #d1555c;
+   color: white;
+   padding: 20px 30px;
+}
+
+#get-started-arrow {
+   border-radius: 20px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   background-color: #b5484e;
+   color: white;
+   padding: 20px 20px;
+   position: relative;
+   left: -4px;
+   margin-right: 146px;
+}
