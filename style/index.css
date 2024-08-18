@@ -194,3 +194,15 @@ h3 {
    height: 650px;
    border-radius: 20px;
 }
+
+/* footer */
+
+footer {
+   background-color: #f1bcbc;
+   padding-bottom: 1px;
+}
+
+footer > div {
+   margin-left: 148px;
+   background-color: #f1bcbc;
+}
