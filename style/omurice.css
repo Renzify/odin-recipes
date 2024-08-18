@@ -110,7 +110,7 @@ h3 {
 }
 
 p {
-   font-family: "roboto condesed";
+   font-family: "roboto condensed";
    font-size: 24px;
    font-weight: normal;
    margin: 0%;
@@ -119,8 +119,46 @@ p {
 }
 
 li {
-   font-family: "roboto condesed";
+   font-family: "roboto condensed";
    font-size: 24px;
    font-weight: normal;
    margin: 0%;
+}
+
+/* description */
+#description {
+   background-color: #f1bcbc;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+#description > h3 {
+   margin: 0%;
+   margin-left: 148px;
+   margin-bottom: 30px;
+}
+
+#description > p {
+   margin: 0%;
+   margin-left: 148px;
+   margin-right: 146px;
+}
+
+/* preparation */
+#preparation {
+   background-color: #f1bcbc;
+   padding-bottom: 30px;
+}
+
+#preparation > h3 {
+   margin: 0%;
+   margin-left: 148px;
+   margin-bottom: 30px;
+}
+
+ol > li {
+   margin: 0%;
+   margin-left: 148px;
+   margin-right: 146px;
+   padding-bottom: 24px;
 }
