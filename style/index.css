@@ -146,3 +146,49 @@ header {
    left: 500px;
    z-index: 99;
 }
+
+/* recipe section */
+#recipe-section {
+   display: grid;
+   grid-template-rows: 152px 1fr;
+   height: 880px;
+   background-image: url(../images/ingredients.png);
+}
+
+#row-one {
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+
+h2 {
+   font-family: lobster;
+   font-size: 96px;
+   font-weight: normal;
+   color: #d1555c;
+   margin: 0%;
+   margin-bottom: 20px;
+}
+
+#row-two {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
+}
+
+h3 {
+   font-family: lobster;
+   font-size: 64px;
+   font-weight: normal;
+   margin: 0%;
+}
+
+#row-two > div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #f7f7f7;
+   gap: 50px;
+   height: 650px;
+   border-radius: 20px;
+}
